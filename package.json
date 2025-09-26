@@ -1,0 +1,28 @@
+{
+  "name": "comet-obfuscator",
+  "version": "0.1.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node ./scripts/build.js",
+    "start": "node ./bin/comet-obfuscator.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "description": "",
+  "type": "module",
+  "bin": {
+    "comet-obfuscator": "bin/comet-obfuscator.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "fast-glob": "^3.3.3",
+    "fs-extra": "^11.3.2",
+    "javascript-obfuscator": "^4.1.1",
+    "picocolors": "^1.1.1",
+    "yargs": "^18.0.0"
+  }
+}
